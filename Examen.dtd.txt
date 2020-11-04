@@ -1,0 +1,22 @@
+<!ELEMENT Muebles (#PCDATA | Salón | Baño | Dormitorio)>
+<!ELEMENT Salón (Silla, Mesa+, Televisión, Chimenea?)>
+<!ELEMENT Silla (EMPTY)>
+<!ELEMENT Mesa (EMPTY)>
+<!ATTLIST nombre ID #REQUIRED>
+<!ATTLIST tipo IDREF #IMPLIED>
+<!ATTLIST tipo IDREFs #FIXED "Redondos">
+<!ELEMENT Televisión CDATA>
+<!ELEMENT Chimenea PCDATA>
+<!ELEMENT Baño (Retrete, Espejp, PersonaMayor, PersonaAdulta, Lavabo)>
+<!ELEMENT Retrete EMPTY>
+<!ELEMENT Espejo CDATA>
+<!ENTITY % atributoNombre Real>
+<!ELEMENT PersonaMayor CDATA>
+<!ELEMENT PersonaAdulta CDATA>
+<!ELEMENT Lavabo EMPTY>
+<!ELEMENT Dormitorio (Cama, Mesa, Silla, Armario, Estanterías)>
+<!ELEMENT Cama EMPTY>
+<!ELEMENT Mesa EMPTY>
+<!ELEMENT Silla EMPTY>
+<!ELEMENT Armario EMPTY>
+<!ELEMENT Estanterías EMPTY>

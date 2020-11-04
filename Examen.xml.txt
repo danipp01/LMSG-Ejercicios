@@ -1,0 +1,32 @@
+
+
+
+<Muebles> Casa
+    <Salón>
+        <Silla> 
+            <Madera> nombre = "Abeto" />
+        </Silla>
+        <Mesa> nombre = "Circle" tipo = "Redonda"/>
+        <Mesa> nombre = "Redonda" tipo = "Circle"/>
+        <Mesa> Filos = Redondos 
+        <Televisión> tipo = plana />
+        <Chimenea> Roca </Chimenea>
+    </Salón>
+    <Baño>
+        <Retrete/>
+        <Espejo> - &Real </Espejo>
+        <PersonaMayor> Ducha </PersonaMayor>
+        <PersonaAdulta> Bañera </PersonaAdulta>
+        <Lavabo/>
+    </Baño>
+    <Dormitorio>
+        <Cama></Cama>
+        <Mesa></Mesa>
+        <Silla></Silla>
+        <Armario></Armario>
+        <Estanterías></Estanterías>
+    </Dormitorio>
+</Muebles>
+        
+
+
